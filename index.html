@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scatter Plot</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1 id="title">Scatterplot Graph</h1>
+    <div id="chart">
+        <svg id="scatterplot" width="800" height="400"></svg>
+    </div>
+    <div id="tooltip" class="hidden">
+        <!-- Tooltip content goes here -->
+    </div>
+    <div id="legend">
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: greenyellow;"></div> Riders with doping allegations
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: blue;"></div> Riders without doping allegations
+        </div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="/script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+</body>
+</html>
